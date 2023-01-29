@@ -8,9 +8,6 @@ export default defineNuxtConfig({
     },
   },
   router: {
-    base: "/nuxt-github-pages/", // base: '/<repository>/'
-  },
-  build: {
-    publicPath: "./",
+    base: "./nuxt-github-pages/", // base: '/<repository>/'
   },
 });
