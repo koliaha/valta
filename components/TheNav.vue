@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between py-3">
+  <div class="hidden md:flex justify-between py-3 flex-wrap">
     <div class="flex gap-x-[31px]">
       <div class="nav-city-select flex items-center">
         <img src="@/assets/img/icon/map.svg" alt="">

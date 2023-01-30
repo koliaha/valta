@@ -1,8 +1,8 @@
 <template>
-    <div class="flex gap-x-[24px]  items-stretch h-[403px]">
+    <div class="flex gap-[23px]  items-stretch min-h-[403px]  flex-wrap justify-center">
         <ContentItem v-for="(item, index) in banner_list" :key="index" :data-item="item">
             <template v-slot:header>
-                <div class="text-5xl font-semibold" >{{ item.header }}  <p :class="item.textColor">{{ item.title }}</p> </div>
+                <div class="text-3xl lg:text-4xl 2xl:text-5xl font-semibold" >{{ item.header }}  <p :class="item.textColor">{{ item.title }}</p> </div>
             </template>
         </ContentItem>
     </div>
@@ -19,7 +19,7 @@ const banner_list = ref([
         "btnWide": "max-w-[292px]",
         "button": "Стать партнером Валты",
         "bg": "slide",
-        "width": "max-w-[1050px]",
+        "width": "max-w-[860px] 2xl:max-w-[1050px]",
         "textColor": "text-primary",
         "isWide":true
     },

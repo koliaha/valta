@@ -1,5 +1,5 @@
 <template>
-    <div class="flex  gap-x-[24px] items-stretch h-[327px]">
+    <div class="flex  gap-[24px] items-stretch min-h-[327px] justify-center  flex-wrap">
         <ServiceItem v-for="(item, index) in product_list" :key="index" :data-item="item" />
         <ContentItem v-for="(item, index) in banner_list" :key="index" :data-item="item" />
     </div>
@@ -23,7 +23,8 @@ const banner_list = ref([
         "link": "#",
         "button": "Подробнее",
         "bg": "coins",
-        "btnWide": "max-w-[229px]"
+        "btnWide": "max-w-[229px]",
+        "width": "max-w-[524px] 2xl:max-w-[692px]",
     },
 ])
 </script>

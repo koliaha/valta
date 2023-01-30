@@ -31,12 +31,13 @@ module.exports = {
     },
     container: {
       center: true,
+      padding: '8px',
       screens: {
         sm: "600px",
         md: "728px",
         lg: "984px",
         xl: "1240px",
-        "2xl": "1408px",
+        "2xl": "1424px",
       },
     },
     spacing: {
@@ -51,6 +52,7 @@ module.exports = {
       sm: "8px",
       lg: "12px",
       large: "14px",
+      xl: "24px",
     },
   },
   plugins: [],

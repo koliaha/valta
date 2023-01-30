@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between gap-x-[24px]">
+  <div class="flex gap-[23px] flex-wrap">
     <ProductItem v-for="(item, index) in product_list" :key="index" :data-item="item" />
   </div>
 </template>
@@ -7,9 +7,9 @@
 const product_list = ref([
   { text: "Зоомагазины", color: 'text-orange', theme: 'bg-pet-light_orange', image: 'shopping' },
   { text: "Интернет-магазины", color: 'text-primary', theme: 'bg-pet-light_green', image: 'remote' },
-{ text: "Ветеринарные клиники", color: 'text-blue', theme: 'bg-pet-light_gray', image: 'friends' },
-{ text: "Ветеринарные врачи",color: 'text-blue',  theme: 'bg-pet-light_blue', image: 'doctor' },
-{ text: "Грумеры", color: 'text-primary', theme: 'bg-pet-dark_green', image: 'bath' },
-{ text: "Заводчики", color: 'text-red', theme: 'bg-pet-dark_orange', image: 'sleep' },
+  { text: "Ветеринарные клиники", color: 'text-blue', theme: 'bg-pet-light_gray', image: 'friends' },
+  { text: "Ветеринарные врачи", color: 'text-blue', theme: 'bg-pet-light_blue', image: 'doctor' },
+  { text: "Грумеры", color: 'text-primary', theme: 'bg-pet-dark_green', image: 'bath' },
+  { text: "Заводчики", color: 'text-red', theme: 'bg-pet-dark_orange', image: 'sleep' },
 ])
 </script>

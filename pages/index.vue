@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="py-3">
         <TheMenu />
         <TheHeader class="my-5"/>
         <h1 class="my-2 text-3xl font-semibold max-w-[930px]">Валта — это престижный и надежный партнер, нацеленный на
