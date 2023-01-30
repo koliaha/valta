@@ -10,5 +10,5 @@ export default defineNuxtConfig({
   router: {
     base: "/nuxt-github-pages/", // base: '/<repository>/'
   },
-  ssr:false
+  ssr: false
 });
