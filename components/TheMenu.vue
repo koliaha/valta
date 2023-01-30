@@ -17,12 +17,12 @@
       </div>
     </div>
     <div class="flex items-stretch h-[54px] gap-x-[14px]">
-      <div class="flex items-center cursor-pointer border rounded-large p-[18px]">
+      <div class="flex items-center cursor-pointer border rounded-large p-[18px] hidden md:flex">
         <img :src="imgUrl('search')" alt="search">
       </div>
       <div class="flex items-center cursor-pointer border rounded-large p-[18px]" @click="counter++">
         <img :src="imgUrl('shop')" alt="heart">
-        <span class="ml-[8px]">Корзина</span>
+        <span class="ml-[8px] hidden md:block">Корзина</span>
         <span class="ml-[10px] border rounded-sm px-[6px] bg-orange text-white">{{counter}}</span>
       </div>
       <div class="flex items-center cursor-pointer border rounded-large p-[18px]">

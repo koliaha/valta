@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-[23px] flex-wrap">
+  <div class="flex gap-[23px] md:flex-wrap overflow-x-scroll md:overflow-x-auto py-3">
     <ProductItem v-for="(item, index) in product_list" :key="index" :data-item="item" />
   </div>
 </template>
