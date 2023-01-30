@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.css", "~/assets/css/fonts.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     },
   },
   router: {
-    base: "./nuxt-github-pages/", // base: '/<repository>/'
+    base: "/nuxt-github-pages/", // base: '/<repository>/'
   },
+  ssr:false
 });
