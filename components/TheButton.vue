@@ -1,5 +1,5 @@
 <template>
-    <button class="text-white rounded-lg py-[21px] max-w-[300px] w-full" :class="dataItem.theme">
+    <button class="text-white rounded-lg py-[21px] max-w-[300px] w-full duration-200 hover:opacity-80" :class="dataItem.theme">
         {{ dataItem.title }}
     </button>
 </template>

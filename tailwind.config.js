@@ -9,6 +9,13 @@ module.exports = {
     "./app.vue",
   ],
   theme: {
+    screens: {
+      sm: "600px",
+      md: "728px",
+      lg: "984px",
+      xl: "1240px",
+      "2xl": "1424px",
+    },
     extend: {
       colors:{
         primary:'#66BC54',
@@ -21,7 +28,7 @@ module.exports = {
         red:"#FB4B00",
         'pet':{
           'light_orange':"#FFF5EC",
-          'light_green':"#F0F9EE",
+          'light_salat':"#F0F9EE",
           'light_gray':"#E7EBF3",
           'light_blue':"#CCD4FF",
           'dark_green':"#E0F2DD",
@@ -32,13 +39,7 @@ module.exports = {
     container: {
       center: true,
       padding: '8px',
-      screens: {
-        sm: "600px",
-        md: "728px",
-        lg: "984px",
-        xl: "1240px",
-        "2xl": "1424px",
-      },
+     
     },
     spacing: {
       1: "8px",

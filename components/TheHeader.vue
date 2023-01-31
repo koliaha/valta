@@ -14,7 +14,7 @@ const banner_list = ref([
         "title": "на новый сайт Валты!",
         "text": "Валта — это команда экспертов, лидер российской зооиндустрии, влияющий на профессиональное развитие рынка",
         "color": "bg-primary",
-        "theme": "bg-pet-light_green",
+        "theme": "bg-pet-light_salat",
         "link": "#",
         "btnWide": "max-w-[292px]",
         "button": "Стать партнером Валты",

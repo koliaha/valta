@@ -12,8 +12,8 @@
         <img src="@/assets/img/icon/arrow_orange.svg" alt="arrow_orange">
       </span>
     </div>
-    <nav class="max-w-198px flex gap-x-[30px]">
-      <a v-for="({ text, route }, index) in links" :key="index" :href="route">{{text}}</a>
+    <nav class="max-w-198px flex gap-x-[14px] xl:gap-x-[30px]">
+      <a v-for="({ text, route }, index) in links" :key="index" :href="route" class="duration-100 hover:opacity-80">{{text}}</a>
     </nav>
   </div>
 </template>
