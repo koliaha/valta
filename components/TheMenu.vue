@@ -19,7 +19,7 @@
           <span class="ml-[8px] ">{{ text }}</span>
         </div>
       </div>
-      <div class="flex items-stretch h-[54px] gap-x-[8px] 2xl:gap-x-[14px]">
+      <div class="flex items-stretch h-[54px] gap-x-[8px] 2xl:gap-x-[14px] select-none">
         <div
           class="flex items-center cursor-pointer border rounded-large p-[15px] 2xl:p-[18px] hidden md:flex duration-100 hover:opacity-80">
           <img :src="imgUrl('search')" alt="search">
